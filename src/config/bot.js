@@ -649,7 +649,3 @@ export function getRandomColor() {
 }
 
 export default botConfig;
-
-@bot.command()
-async def ah(ctx):
-    await ctx.send("Well that’s a nigger")
