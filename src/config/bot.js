@@ -649,3 +649,7 @@ export function getRandomColor() {
 }
 
 export default botConfig;
+
+if (message.content === "!ah") {
+    await message.channel.send("Welcome Nigga");
+}
