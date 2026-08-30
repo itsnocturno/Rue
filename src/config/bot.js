@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Welcome New Shadow Folk",     // this is what people actually see
+        state: "I said Wallahi..",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -163,7 +163,7 @@ export const botConfig = {
       // Currency display name.
       name: "Unemployment Units",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Units",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -175,7 +175,7 @@ export const botConfig = {
     baseBankCapacity: 100000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: ∞,
 
     // Work command random payout range.
     workMin: 10,
